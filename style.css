@@ -1,0 +1,90 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+.l-block {
+  display:flex;
+  justify-content: flex-start;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  width:712px;
+  margin-top:20px;
+
+}
+.container img {
+  border-radius:5px;
+}
+#weatherInfo {
+  margin:10px;
+  padding:10px;
+
+}
+.l-block>div {
+  margin-left:10px;
+}
+
+#temp-val {
+  font-size:46px;
+}
+input[type="submit"] {
+padding:15px;
+background: #1a4edd;
+border-radius:5px;
+border:1px solid #fff;
+color: #fff;
+font-size: 20px;
+margin-left: 20px;
+}
+#details {
+  margin-left:20px;
+}
+#details >p {
+  color: #70757a;
+  font-size: 12px;
+  margin:0;
+}
+.loc >p{
+  margin: 0;
+
+}
+.loc>p:first-child{
+  font-size:24px;
+  line-height:40px;
+}
+.loc>p:nth-child(2), .loc>p:nth-child(3){
+  color: #70757a;
+  font-size: 16px;
+  line-height:1.2;
+}
+
+#inputVal {
+  padding: 15px 15px;
+  border-radius:25px;
+  box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+  background: #fff;
+  border: 1px solid #fff;
+  width: 500px;
+  font-size: 15px;
+
+}
+th {
+  border-right: 1px solid rgb(152, 158, 168);
+}
+th:last-child{
+  border:none;
+}
+
+th, td {
+  font-size:14px;
+
+  padding:0 5px;
+}
+
+td{
+  padding-top:15px;
+  font-size:12px;
+}

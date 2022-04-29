@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <form id="weatherInfo">
+      <input type="text" placeholder = "Amstelveen" id="inputVal">
+      <input type="submit" value = "Check Weather">
+    </form>
+
+    <div class="container">
+      <div class="header">
+        <div class="l-block">
+          <div id="w-image"><img src="" alt=""></div>
+          <div id="temp-val"></div>
+          <div id="details">
+            <p>Precipitation: </p>
+            <p>Humidity: </p>
+            <p>Wind: </p>
+
+          </div>
+        </div>
+        <div class="loc">
+          <p></p>
+          <p></p>
+          <p></p>
+        </div>
+
+
+      </div>
+
+      <table>
+        <tr class="tabs">
+          <th class="tab" data-target = "temp"><p>Temperature</p></th>
+          <th class="tab" data-target = "preci"><p>Precipitation</p></th>
+          <th class="tab" data-target = "wind"><p>Wind</p></th>
+        </tr>
+        <tr class="values">
+          <td class="tab-content temp"></td>
+          <td class="tab-content preci"></td>
+          <td class="tab-content wind"></td>
+        </tr>
+      </table>
+
+    </div>
+
+  </body>
+  <script src="./config.js"></script>
+  <script src = "./index.js"></script>
+</html>
