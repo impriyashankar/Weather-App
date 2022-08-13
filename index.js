@@ -11,7 +11,7 @@ let oldHTML;
 form.addEventListener('submit',(event) =>{
   const query = document.querySelector('#inputVal').value;
   let currentDay ='';
-  const url = `https://api.weatherstack.com/current?access_key=${config.API_KEY}&query=${query}`;
+  const url = `http://api.weatherstack.com/current?access_key=${config.API_KEY}&query=${query}`;
   event.preventDefault();
   //console.log(url);
 
