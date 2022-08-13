@@ -1,3 +1,6 @@
+var config = {
+  API_KEY : '894f787a86cb8b24dbac7865e64f7c8b'
+}
 const form = document.querySelector('#weatherInfo');
 const tabs = document.querySelector('.tabs');
 const tab = document.querySelectorAll('.tabs .tab');
