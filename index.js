@@ -20,6 +20,7 @@ form.addEventListener('submit',(event) =>{
   fetch(url)
   .then(response => response.json())
   .then(data => {
+    console.log(data);
     const dateTime = new Date(data.location.localtime);
 
     const daysOfWeek = {0: "Sunday", 1: "Monday", 2: "Tuesday", 3: "Wednesday", 4: "Thursday", 5: "Friday", 6: "Saturday"}
